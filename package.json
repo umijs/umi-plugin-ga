@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-ga",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Analytics for umi",
   "main": "index.js",
   "scripts": {
