@@ -1,7 +1,7 @@
 export default {
   plugins: [
     [
-      "umi-plugin-ga",
+      "../../index.js",
       {
         code: "123"
       }
