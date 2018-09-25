@@ -1,0 +1,10 @@
+node_modules
+examples/**/.umi
+examples/**/dist
+/index.js
+/locale.js
+.DS_Store
+coverage/
+config.local.js
+
+**/package-lock.json
