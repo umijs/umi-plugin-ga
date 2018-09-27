@@ -6,5 +6,5 @@ examples/**/dist
 .DS_Store
 coverage/
 config.local.js
-
 **/package-lock.json
+**/yarn.lock

@@ -1,4 +1,7 @@
 export default (api, opts) => {
+  if (process.env.NODE_ENV !== "production") {
+    return false;
+  }
   console.log("insert Google Analytics");
   const gaTpl = function(code) {
     return `

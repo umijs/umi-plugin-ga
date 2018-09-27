@@ -4,6 +4,5 @@
     "build": "CLEAR_CONSOLE=none umi build"
   },
   "dependencies": {
-    "umi-plugin-ga": "^1.0.0"
   }
 }
