@@ -4,7 +4,7 @@ export default {
       "../../index.js",
       {
         code: "123",
-        judge: () => window.location.hostname === 'preview.pro.ant.design'
+        judge: () => process.env.NODE_ENV !== "production"
       }
     ]
   ],

@@ -20,7 +20,7 @@ export default {
       'umi-plugin-ga',
       {
         code: 'google analytics code',
-        judge: ()=>true
+        judge: ()=>true // true or false
       },
     ],
   ],
