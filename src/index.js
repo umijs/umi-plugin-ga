@@ -9,7 +9,7 @@ export default (api, opts) => {
   const gaTpl = function (code) {
     return `
     (function(){ 
-      if (!location.port&&judge()) {
+      if (!location.port) {
         (function (i, s, o, g, r, a, m) {
           i['GoogleAnalyticsObject'] = r;
           i[r] = i[r] || function () {
