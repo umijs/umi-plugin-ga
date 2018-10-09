@@ -1,4 +1,5 @@
 # umi-plugin-ga
+
 Umi plugin to support google analytics
 
 ## use
@@ -8,7 +9,8 @@ Umi plugin to support google analytics
 `yarn add umi-plugin-ga`
 
 ### config
-```
+
+```js
 export default {
   plugins: [
     [
@@ -18,6 +20,7 @@ export default {
       'umi-plugin-ga',
       {
         code: 'google analytics code',
+        judge: ()=>true
       },
     ],
   ],

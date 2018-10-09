@@ -2,7 +2,10 @@ export default (api, opts) => {
   if (process.env.NODE_ENV !== "production") {
     return false;
   }
-  console.log("insert Google Analytics");
+  if (opts.judge && !opts.judge()) {
+    return false;
+  }
+  console.log("insert google analytics");
   const gaTpl = function(code) {
     return `
     // Enable Google Analytics
