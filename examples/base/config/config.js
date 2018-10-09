@@ -3,7 +3,8 @@ export default {
     [
       "../../index.js",
       {
-        code: "123"
+        code: "123",
+        judge: () => window.location.hostname === 'preview.pro.ant.design'
       }
     ]
   ],
