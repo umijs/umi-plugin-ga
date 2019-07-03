@@ -5,8 +5,8 @@ export default (api, opts) => {
   if (opts.judge && !opts.judge()) {
     return false;
   }
-  console.log("insert google analytics");
-  const gaTpl = function (code) {
+  api.log.success("insert google analytics");
+  const gaTpl = function(code) {
     return `
     (function(){ 
       if (!location.port) {
