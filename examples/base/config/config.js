@@ -4,7 +4,7 @@ export default {
       "../../index.js",
       {
         code: "123",
-        judge: () => process.env.NODE_ENV !== "production"
+        judge: () => process.env.NODE_ENV === "production"
       }
     ]
   ],
