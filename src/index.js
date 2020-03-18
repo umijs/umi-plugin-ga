@@ -1,5 +1,5 @@
 export default (api, opts) => {
-  if (process.env.NODE_ENV !== "production") {
+  if (process.env.NODE_ENV !== "production" || !opts) {
     return false;
   }
   if (opts.judge && !opts.judge()) {
